@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+﻿import { useEffect } from "react";
 import type { ImageItem } from "@/config";
 import { overlayConfig } from "@/config";
 
@@ -22,7 +22,7 @@ export default function ImageDetailOverlay({ image, onClose }: Props) {
   const eyebrow =
     image && image.category
       ? overlayConfig.frameDetailLabel
-        ? `${image.category} — ${overlayConfig.frameDetailLabel}`
+        ? `${image.category} â€” ${overlayConfig.frameDetailLabel}`
         : image.category
       : "";
 
@@ -165,7 +165,7 @@ export default function ImageDetailOverlay({ image, onClose }: Props) {
                     <span style={{ opacity: 0.6 }}>
                       {overlayConfig.seriesLabel}
                     </span>
-                    <span>{image.title.split(" — ")[0]}</span>
+                    <span>{image.title.split(" â€” ")[0]}</span>
                   </>
                 )}
               </div>
@@ -224,7 +224,7 @@ export default function ImageDetailOverlay({ image, onClose }: Props) {
         onMouseEnter={(e) => (e.currentTarget.style.opacity = "1")}
         onMouseLeave={(e) => (e.currentTarget.style.opacity = "0.7")}
       >
-        ×
+        Ã—
       </button>
     </div>
   );

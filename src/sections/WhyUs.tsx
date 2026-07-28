@@ -1,4 +1,4 @@
-import { Check } from "lucide-react";
+﻿import { Check } from "lucide-react";
 import { useLang } from "@/lib/lang";
 import { Reveal, SectionHead } from "@/sections/common";
 

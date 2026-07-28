@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+﻿import { useEffect, useRef, useState } from "react";
 import { ChevronDown, MousePointerClick } from "lucide-react";
 import VortexGallery from "@/lib/VortexGallery";
 import { galleryConfig, type ImageItem } from "@/config";
@@ -75,7 +75,7 @@ export default function Home() {
     <>
       <Header />
 
-      {/* ── Hero: WebGL vortex gallery ── */}
+      {/* â”€â”€ Hero: WebGL vortex gallery â”€â”€ */}
       <section id="home" ref={heroRef} className="relative h-[100svh] w-full overflow-hidden bg-white">
         <canvas
           ref={canvasRef}
@@ -123,7 +123,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── One-page sections ── */}
+      {/* â”€â”€ One-page sections â”€â”€ */}
       <About />
       <Services />
       <Process />

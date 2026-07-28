@@ -1,4 +1,4 @@
-import { Check } from "lucide-react";
+﻿import { Check } from "lucide-react";
 import { useLang } from "@/lib/lang";
 import { Reveal, SectionHead } from "@/sections/common";
 
@@ -33,14 +33,14 @@ export default function About() {
           <Reveal delay={150} className="relative">
             <div className="overflow-hidden rounded-3xl shadow-2xl shadow-violet/20">
               <img
-                src="/orchidia-studio/images/portfolio-grey-abaya.jpg"
+                src="/images/portfolio-grey-abaya.jpg"
                 alt="Orchidia Studio abaya"
                 className="aspect-[4/5] w-full object-cover"
                 loading="lazy"
               />
             </div>
             <div className="absolute -bottom-6 -start-4 hidden rounded-2xl bg-white p-5 shadow-xl shadow-violet/15 sm:block">
-              <img src="/orchidia-studio/images/emblem.png" alt="" className="h-16 w-auto object-contain" />
+              <img src="/images/emblem.png" alt="" className="h-16 w-auto object-contain" />
             </div>
           </Reveal>
         </div>

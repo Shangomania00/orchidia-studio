@@ -1,4 +1,4 @@
-import { useLang } from "@/lib/lang";
+﻿import { useLang } from "@/lib/lang";
 import { Reveal, SectionHead } from "@/sections/common";
 
 export default function Process() {
@@ -25,7 +25,7 @@ export default function Process() {
                 </p>
                 {i < t.process.steps.length - 1 && (
                   <span className="absolute -bottom-4 start-1/2 -translate-x-1/2 text-lavender lg:hidden">
-                    ↓
+                    â†“
                   </span>
                 )}
               </div>
