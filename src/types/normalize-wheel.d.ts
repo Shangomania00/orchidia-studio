@@ -1,4 +1,4 @@
-﻿declare module "normalize-wheel" {
+declare module "normalize-wheel" {
   interface NormalizedWheelEvent {
     spinX: number;
     spinY: number;

@@ -1,4 +1,4 @@
-﻿import { createContext, useContext, useState, type ReactNode } from "react";
+import { createContext, useContext, useState, type ReactNode } from "react";
 import { content, type Lang } from "@/i18n";
 
 interface LangCtx {

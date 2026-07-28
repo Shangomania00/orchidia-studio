@@ -1,4 +1,4 @@
-﻿import { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { useLang } from "@/lib/lang";
 
@@ -29,7 +29,7 @@ export default function Header() {
       className="rounded-full border border-violet/30 px-4 py-1.5 text-sm font-medium text-violet transition hover:bg-violet hover:text-white"
       aria-label="Switch language"
     >
-      {lang === "ar" ? "EN" : "Ø¹Ø±Ø¨ÙŠ"}
+      {lang === "ar" ? "EN" : "عربي"}
     </button>
   );
 
@@ -44,7 +44,7 @@ export default function Header() {
       <div className="mx-auto flex h-[72px] max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-10">
         <a href="#home" className="flex items-center gap-3">
           <img
-            src="/images/logo.png"
+            src="/orchidia-studio/images/logo.png"
             alt="Orchidia Studio"
             className="h-11 w-auto object-contain"
           />

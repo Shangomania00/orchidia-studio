@@ -1,4 +1,4 @@
-﻿import * as THREE from "three";
+import * as THREE from "three";
 import gsap from "gsap";
 import normalizeWheel from "normalize-wheel";
 
@@ -225,13 +225,13 @@ export default class VortexGallery {
       let drawW: number, drawH: number, offsetX: number, offsetY: number;
 
       if (imgAspect > cellAspect) {
-        // Image is wider relative to cell â€” fit to width
+        // Image is wider relative to cell — fit to width
         drawW = CELL_W;
         drawH = CELL_W / imgAspect;
         offsetX = 0;
         offsetY = (CELL_H - drawH) / 2;
       } else {
-        // Image is taller relative to cell â€” fit to height
+        // Image is taller relative to cell — fit to height
         drawH = CELL_H;
         drawW = CELL_H * imgAspect;
         offsetX = (CELL_W - drawW) / 2;
@@ -471,7 +471,7 @@ export default class VortexGallery {
     const ndcX = ((clientX - canvasRect.left) / canvasRect.width) * 2 - 1;
     const ndcY = -(((clientY - canvasRect.top) / canvasRect.height) * 2 - 1);
 
-    // 1) Center mesh â€” raycast
+    // 1) Center mesh — raycast
     if (this.centerMesh) {
       const raycaster = new THREE.Raycaster();
       raycaster.setFromCamera(new THREE.Vector2(ndcX, ndcY), this.camera);
@@ -481,7 +481,7 @@ export default class VortexGallery {
       }
     }
 
-    // 2) Instanced images â€” CPU-side position replay
+    // 2) Instanced images — CPU-side position replay
     if (!this.instanceData) return null;
 
     const w = canvasRect.width;

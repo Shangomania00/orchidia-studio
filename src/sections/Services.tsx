@@ -1,4 +1,4 @@
-﻿import { useLang } from "@/lib/lang";
+import { useLang } from "@/lib/lang";
 import { Reveal, SectionHead } from "@/sections/common";
 
 export default function Services() {

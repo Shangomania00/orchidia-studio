@@ -1,4 +1,4 @@
-﻿export interface SiteConfig {
+export interface SiteConfig {
   language: string;
   brandName: string;
   copyright: string;
@@ -44,7 +44,7 @@ export interface GalleryConfig {
 export const siteConfig: SiteConfig = {
   language: "ar",
   brandName: "ORCHIDIA STUDIO",
-  copyright: "Â© 2026 Orchidia Studio â€” Dubai, UAE",
+  copyright: "© 2026 Orchidia Studio — Dubai, UAE",
 };
 
 export const navigationConfig: NavigationConfig = {
@@ -62,26 +62,26 @@ export const infoPageConfig: InfoPageConfig = {
 
 export const overlayConfig: OverlayConfig = {
   frameDetailLabel: "Orchidia Studio",
-  fileLabel: "Collection â€¢ Ø§Ù„Ù…Ø¬Ù…ÙˆØ¹Ø©",
-  seriesLabel: "Series â€¢ Ø§Ù„Ø³Ù„Ø³Ù„Ø©",
-  closeLabel: "Close â€¢ Ø¥ØºÙ„Ø§Ù‚",
+  fileLabel: "Collection • المجموعة",
+  seriesLabel: "Series • السلسلة",
+  closeLabel: "Close • إغلاق",
 };
 
 export const galleryConfig: GalleryConfig = {
   images: [
-    { src: "/images/portfolio-purple-couture.jpg", category: "Evening Wear", title: "Purple Evening Collection", description: "" },
-    { src: "/images/portfolio-grey-abaya.jpg", category: "Luxury Abayas", title: "Grey Abaya Collection", description: "" },
-    { src: "/images/portfolio-black-abayas.jpg", category: "Luxury Abayas", title: "Black & Grey Collection", description: "" },
-    { src: "/images/portfolio-atelier.jpg", category: "Atelier", title: "Inside the Studio", description: "" },
-    { src: "/images/gallery-white-abaya.jpg", category: "Luxury Abayas", title: "White Silk Abaya", description: "" },
-    { src: "/images/gallery-lavender-jalabiya.jpg", category: "Jalabiya", title: "Lavender Silk Jalabiya", description: "" },
-    { src: "/images/gallery-mukhawar.jpg", category: "Mukhawar", title: "Floral Mukhawar", description: "" },
-    { src: "/images/gallery-kids-couture.jpg", category: "Kids Fashion", title: "Little Couture", description: "" },
-    { src: "/images/gallery-fabrics.jpg", category: "Fabrics", title: "Silk & Chiffon Library", description: "" },
-    { src: "/images/gallery-sketches.jpg", category: "Design", title: "Collection Sketches", description: "" },
-    { src: "/images/gallery-embroidery.jpg", category: "Craftsmanship", title: "Hand Embroidery", description: "" },
-    { src: "/images/gallery-violet-gown.jpg", category: "Evening Wear", title: "Violet Cape Gown", description: "" },
-    { src: "/images/gallery-black-detail.jpg", category: "Craftsmanship", title: "Crystal Sleeve Detail", description: "" },
-    { src: "/images/gallery-boutique.jpg", category: "Boutique", title: "Retail Experience", description: "" },
+    { src: "/orchidia-studio/images/portfolio-purple-couture.jpg", category: "Evening Wear", title: "Purple Evening Collection", description: "" },
+    { src: "/orchidia-studio/images/portfolio-grey-abaya.jpg", category: "Luxury Abayas", title: "Grey Abaya Collection", description: "" },
+    { src: "/orchidia-studio/images/portfolio-black-abayas.jpg", category: "Luxury Abayas", title: "Black & Grey Collection", description: "" },
+    { src: "/orchidia-studio/images/portfolio-atelier.jpg", category: "Atelier", title: "Inside the Studio", description: "" },
+    { src: "/orchidia-studio/images/gallery-white-abaya.jpg", category: "Luxury Abayas", title: "White Silk Abaya", description: "" },
+    { src: "/orchidia-studio/images/gallery-lavender-jalabiya.jpg", category: "Jalabiya", title: "Lavender Silk Jalabiya", description: "" },
+    { src: "/orchidia-studio/images/gallery-mukhawar.jpg", category: "Mukhawar", title: "Floral Mukhawar", description: "" },
+    { src: "/orchidia-studio/images/gallery-kids-couture.jpg", category: "Kids Fashion", title: "Little Couture", description: "" },
+    { src: "/orchidia-studio/images/gallery-fabrics.jpg", category: "Fabrics", title: "Silk & Chiffon Library", description: "" },
+    { src: "/orchidia-studio/images/gallery-sketches.jpg", category: "Design", title: "Collection Sketches", description: "" },
+    { src: "/orchidia-studio/images/gallery-embroidery.jpg", category: "Craftsmanship", title: "Hand Embroidery", description: "" },
+    { src: "/orchidia-studio/images/gallery-violet-gown.jpg", category: "Evening Wear", title: "Violet Cape Gown", description: "" },
+    { src: "/orchidia-studio/images/gallery-black-detail.jpg", category: "Craftsmanship", title: "Crystal Sleeve Detail", description: "" },
+    { src: "/orchidia-studio/images/gallery-boutique.jpg", category: "Boutique", title: "Retail Experience", description: "" },
   ],
 };

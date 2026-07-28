@@ -1,4 +1,4 @@
-﻿import { Routes, Route } from 'react-router'
+import { Routes, Route } from 'react-router'
 import { LangProvider } from '@/lib/lang'
 import Home from './pages/Home'
 
