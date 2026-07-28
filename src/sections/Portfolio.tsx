@@ -5,10 +5,10 @@ import { useLang } from "@/lib/lang";
 import { Reveal, SectionHead } from "@/sections/common";
 
 const FEATURED = [
-  "/orchidia-studio/images/portfolio-purple-couture.jpg",
-  "/orchidia-studio/images/portfolio-grey-abaya.jpg",
-  "/orchidia-studio/images/portfolio-black-abayas.jpg",
-  "/orchidia-studio/images/portfolio-atelier.jpg",
+  "/images/portfolio-purple-couture.jpg",
+  "/images/portfolio-grey-abaya.jpg",
+  "/images/portfolio-black-abayas.jpg",
+  "/images/portfolio-atelier.jpg",
 ];
 
 export default function Portfolio({

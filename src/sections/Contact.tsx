@@ -11,13 +11,13 @@ export default function Contact() {
       {/* CTA */}
       <section id="contact" className="relative overflow-hidden bg-lavender-soft py-24 md:py-32">
         <img
-          src="/orchidia-studio/images/emblem.png"
+          src="/images/emblem.png"
           alt=""
           aria-hidden
           className="pointer-events-none absolute -end-20 -top-20 w-72 opacity-[0.06]"
         />
         <img
-          src="/orchidia-studio/images/emblem.png"
+          src="/images/emblem.png"
           alt=""
           aria-hidden
           className="pointer-events-none absolute -bottom-24 -start-24 w-96 opacity-[0.06]"
@@ -25,7 +25,7 @@ export default function Contact() {
         <div className="relative mx-auto max-w-3xl px-4 text-center sm:px-6">
           <Reveal>
             <img
-              src="/orchidia-studio/images/logo.png"
+              src="/images/logo.png"
               alt="Orchidia Studio"
               className="mx-auto mb-8 h-24 w-auto object-contain"
             />
@@ -99,7 +99,7 @@ export default function Contact() {
       <footer className="bg-violet-deep py-12 text-white">
         <div className="mx-auto flex max-w-7xl flex-col items-center gap-6 px-4 text-center sm:px-6">
           <div className="rounded-2xl bg-white/95 p-3">
-            <img src="/orchidia-studio/images/logo.png" alt="Orchidia Studio" className="h-14 w-auto object-contain" />
+            <img src="/images/logo.png" alt="Orchidia Studio" className="h-14 w-auto object-contain" />
           </div>
           <p className="f-display text-lg text-lavender">{t.footer.tagline}</p>
           <a
